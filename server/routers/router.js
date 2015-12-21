@@ -7,4 +7,9 @@ router.route('/')
     res.send('You hit ' + req.originalUrl + '! Extend this router so that it\'s more useful!')
   });
 
+router.route('/cohort/:cohortNumber')
+  .get(function(req, res) {
+    res.send('You hit ' + req.originalUrl + '! Extend this router so that it\'s more useful!')
+  });
+
 module.exports = router;

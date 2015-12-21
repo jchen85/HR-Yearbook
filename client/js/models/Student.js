@@ -10,4 +10,8 @@ var Student = Backbone.Model.extend({
     nickname: ''
   },
 
+  initialize: function() {
+    
+  }
+
 });
